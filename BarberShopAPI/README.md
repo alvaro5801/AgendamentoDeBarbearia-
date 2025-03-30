@@ -55,12 +55,13 @@ src/main/java/br/com/dio/barbershopui/
 ## 🔁 Diagrama Mermaid - Fluxo da API
 
 ```mermaid
-flowchart TD
-    A[Cliente Frontend] --> B[🌐 ClientController]
-    B --> C[🧠 Service (Regra de negócio)]
-    C --> D[💾 Repository (PostgreSQL)]
-    A --> E[📅 ScheduleController]
+flowchart TB
+    A[Cliente Frontend] --> B[ClientController]
+    B --> C[Service (Regra de negócio)]
+    C --> D[Repository (PostgreSQL)]
+    A --> E[ScheduleController]
     E --> C
+
 ```
 
 ---
