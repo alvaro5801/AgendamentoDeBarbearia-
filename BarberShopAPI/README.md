@@ -90,5 +90,5 @@ flowchart TD
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome].  
-Este projeto é parte do sistema completo Barber Shop (UI + API).
+Desenvolvido por Álvaro Silva.  
+
