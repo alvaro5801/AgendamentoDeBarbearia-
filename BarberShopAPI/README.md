@@ -56,9 +56,9 @@ src/main/java/br/com/dio/barbershopui/
 
 ```mermaid
 flowchart TB
-    A[Cliente Frontend] --> B[ClientController]
-    B --> C[Service (Regra de negócio)]
-    C --> D[Repository (PostgreSQL)]
+    A[ClienteFrontend] --> B[ClientController]
+    B --> C[Service]
+    C --> D[Repository]
     A --> E[ScheduleController]
     E --> C
 
